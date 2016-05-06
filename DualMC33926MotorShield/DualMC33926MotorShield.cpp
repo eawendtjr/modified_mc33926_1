@@ -2,17 +2,17 @@
 // Written by: Group 26
 
 /* The controller's main functions are to send out driving data to the SAR Rover, tell the Rover to 
- *  test the snow, receive back snow pack data in live time, test the slope angle, and to shut off the 
- *  emergency system if needed. All data is displayed to a 1.8" TFT LCD Screen that has a customized 
- *  main screen to show the user all the button functions. The screen also displays data coming from
- *  the Rover in real time. This program has not been taken from some other controller program, however,
- *  the method of converting integers to characters when sending data and vice versa when receiving data 
- *  was learned using the following thread: http://forum.arduino.cc/index.php?topic=195618.0. Some of the 
- *  code may be found somewhere online, however, other than using the aforementioned thread for reference,
- *  the code was written by the group members.
- *  
- *  The .h files for the included libraries were refered to when implementing sensor and TFT funcitonality.
- *  Please see these files for more information.
+ test the snow, receive back snow pack data in live time, test the slope angle, and to shut off the 
+ emergency system if needed. All data is displayed to a 1.8" TFT LCD Screen that has a customized 
+ main screen to show the user all the button functions. The screen also displays data coming from
+ the Rover in real time. This program has not been taken from some other controller program, however,
+ the method of converting integers to characters when sending data and vice versa when receiving data 
+ was learned using the following thread: http://forum.arduino.cc/index.php?topic=195618.0. Some of the 
+ code may be found somewhere online, however, other than using the aforementioned thread for reference,
+ the code was written by the group members.
+ 
+ The .h files for the included libraries were refered to when implementing sensor and TFT funcitonality.
+ Please see those files for more information.
  */
 
  /****************************************************************************************************************************************************************************************************/
